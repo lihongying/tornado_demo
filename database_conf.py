@@ -4,7 +4,7 @@
 mysql = {
     'host': '127.0.0.1',
     'user': 'root',
-    'passwd': '',
+    'passwd': '123',
     'db': 'tornado_test',
     'use_unicode': True,
     'charset': 'utf8'

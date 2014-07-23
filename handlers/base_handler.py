@@ -14,6 +14,8 @@ class BaseHandler(tornado.web.RequestHandler):
             return self.new()
         elif method == 'edit':
             return self.edit()
+        elif method == 'delete':
+            return self.delete()
         else:
             return self.index()
 
