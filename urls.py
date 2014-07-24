@@ -8,5 +8,6 @@ urls = [
 
   (ur"/users", UsersHandler),
   (ur"/users/new", UsersHandler),
-  (ur"/users/edit", UsersHandler)
+  (ur"/users/edit", UsersHandler),
+  (ur"/user_list", UserHandler),
 ]
